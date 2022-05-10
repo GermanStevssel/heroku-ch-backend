@@ -1,0 +1,45 @@
+.chat-messages {
+	border: 1px solid black;
+	padding: 12px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.author {
+	font-weight: bold;
+	color: blue;
+}
+
+.date {
+	color: brown;
+}
+
+.message {
+	font-style: italic;
+	color: green;
+}
+
+.bienvenido {
+	padding: 1rem;
+	background-color: teal;
+}
+
+.bienvenido-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bienvenido-content h1 {
+	color: #fafafa;
+}
+
+.desloguear {
+	background-color: rgb(2, 223, 87);
+	border-color: rgb(2, 223, 87);
+	border-radius: 5px;
+}
+.desloguear:hover {
+	background-color: rgb(10, 168, 71);
+	border-color: rgb(10, 168, 71);
+	border-radius: 5px;
+}
