@@ -11,7 +11,13 @@
 	align-items: flex-start;
 	width: 100vw;
 	height: 100vh;
-	background-color: teal;
+	background-color: #e9ecef;
+}
+
+.heroku-container .title-container {
+	padding: 3rem;
+	background-color: white;
+	text-transform: uppercase;
 }
 
 .chat-messages {
