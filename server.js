@@ -102,7 +102,7 @@ app.get("*", (req, res) => {
 
 const numCPUs = os.cpus().length;
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const mode = process.argv[3]?.toUpperCase() || "FORK";
 
 if (mode === "FORK") {
